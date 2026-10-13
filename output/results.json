@@ -1,0 +1,286 @@
+{
+  "chunk_read_s": 1.13,
+  "n_chunks": 5,
+  "load_s": 1.24,
+  "raw_rows": 429435,
+  "raw_cols": 67,
+  "raw_file_mb": 98.4,
+  "n_locations": 255,
+  "date_min": "2020-01-01",
+  "date_max": "2024-08-14",
+  "null_pct": {
+    "iso_code": 0.0,
+    "continent": 6.2,
+    "location": 0.0,
+    "date": 0.0,
+    "total_cases": 4.1,
+    "new_cases": 4.5,
+    "new_cases_smoothed": 4.8,
+    "total_deaths": 4.1,
+    "new_deaths": 4.4,
+    "new_deaths_smoothed": 4.7,
+    "total_cases_per_million": 4.1,
+    "new_cases_per_million": 4.5,
+    "new_cases_smoothed_per_million": 4.8,
+    "total_deaths_per_million": 4.1,
+    "new_deaths_per_million": 4.4,
+    "new_deaths_smoothed_per_million": 4.7,
+    "reproduction_rate": 57.0,
+    "icu_patients": 90.9,
+    "icu_patients_per_million": 90.9,
+    "hosp_patients": 90.5,
+    "hosp_patients_per_million": 90.5,
+    "weekly_icu_admissions": 97.4,
+    "weekly_icu_admissions_per_million": 97.4,
+    "weekly_hosp_admissions": 94.3,
+    "weekly_hosp_admissions_per_million": 94.3,
+    "total_tests": 81.5,
+    "new_tests": 82.4,
+    "total_tests_per_thousand": 81.5,
+    "new_tests_per_thousand": 82.4,
+    "new_tests_smoothed": 75.8,
+    "new_tests_smoothed_per_thousand": 75.8,
+    "positive_rate": 77.7,
+    "tests_per_case": 78.0,
+    "tests_units": 75.1,
+    "total_vaccinations": 80.1,
+    "people_vaccinated": 81.1,
+    "people_fully_vaccinated": 81.8,
+    "total_boosters": 87.5,
+    "new_vaccinations": 83.5,
+    "new_vaccinations_smoothed": 54.6,
+    "total_vaccinations_per_hundred": 80.1,
+    "people_vaccinated_per_hundred": 81.1,
+    "people_fully_vaccinated_per_hundred": 81.8,
+    "total_boosters_per_hundred": 87.5,
+    "new_vaccinations_smoothed_per_million": 54.6,
+    "new_people_vaccinated_smoothed": 55.2,
+    "new_people_vaccinated_smoothed_per_hundred": 55.2,
+    "stringency_index": 54.3,
+    "population_density": 16.1,
+    "median_age": 22.1,
+    "aged_65_older": 24.7,
+    "aged_70_older": 22.8,
+    "gdp_per_capita": 23.6,
+    "extreme_poverty": 50.6,
+    "cardiovasc_death_rate": 23.4,
+    "diabetes_prevalence": 19.4,
+    "female_smokers": 42.4,
+    "male_smokers": 43.2,
+    "handwashing_facilities": 62.3,
+    "hospital_beds_per_thousand": 32.3,
+    "life_expectancy": 9.1,
+    "human_development_index": 25.7,
+    "population": 0.0,
+    "excess_mortality_cumulative_absolute": 96.9,
+    "excess_mortality_cumulative": 96.9,
+    "excess_mortality": 96.9,
+    "excess_mortality_cumulative_per_million": 96.9
+  },
+  "cols_over_50_null": 38,
+  "aggregate_rows": 34124,
+  "duplicate_rows": 7770,
+  "dtype_counts": {
+    "float64": 61,
+    "str": 4,
+    "datetime64[us]": 1,
+    "int64": 1
+  },
+  "clean_rows": 393903,
+  "clean_countries": 237,
+  "mem_raw_mb": 240.4,
+  "mem_clean_mb": 59.9,
+  "mem_opt_mb": 28.0,
+  "sql_write_s": 1.35,
+  "db_mb": 37.3,
+  "q_no_index_ms": 27.3,
+  "q_index_ms": 1.2,
+  "yearly": [
+    {
+      "year": 2020,
+      "cases": 80267309.0,
+      "deaths": 1896289.0,
+      "cfr_pct": 2.36
+    },
+    {
+      "year": 2021,
+      "cases": 200183063.0,
+      "deaths": 3547663.0,
+      "cfr_pct": 1.77
+    },
+    {
+      "year": 2022,
+      "cases": 423879722.0,
+      "deaths": 1248913.0,
+      "cfr_pct": 0.29
+    },
+    {
+      "year": 2023,
+      "cases": 69236092.0,
+      "deaths": 322630.0,
+      "cfr_pct": 0.47
+    },
+    {
+      "year": 2024,
+      "cases": 2063363.0,
+      "deaths": 42258.0,
+      "cfr_pct": 2.05
+    }
+  ],
+  "peak_cases": {
+    "month": "January 2022",
+    "cases": 94640059
+  },
+  "peak_deaths": {
+    "month": "January 2021",
+    "deaths": 483813
+  },
+  "world_total_cases": 775592504,
+  "world_total_deaths": 7053920,
+  "continent": [
+    {
+      "continent": "South America",
+      "cases": 68809418.0,
+      "deaths": 1354187.0,
+      "pop": 436816679,
+      "deaths_per_million": 3100.0,
+      "cfr_pct": 1.97
+    },
+    {
+      "continent": "Europe",
+      "cases": 252642589.0,
+      "deaths": 2099271.0,
+      "pop": 745629155,
+      "deaths_per_million": 2815.0,
+      "cfr_pct": 0.83
+    },
+    {
+      "continent": "North America",
+      "cases": 124492666.0,
+      "deaths": 1671178.0,
+      "pop": 600323657,
+      "deaths_per_million": 2784.0,
+      "cfr_pct": 1.34
+    },
+    {
+      "continent": "Oceania",
+      "cases": 15003352.0,
+      "deaths": 32918.0,
+      "pop": 45038907,
+      "deaths_per_million": 731.0,
+      "cfr_pct": 0.22
+    },
+    {
+      "continent": "Asia",
+      "cases": 301499099.0,
+      "deaths": 1637249.0,
+      "pop": 4689377951,
+      "deaths_per_million": 349.0,
+      "cfr_pct": 0.54
+    },
+    {
+      "continent": "Africa",
+      "cases": 13145380.0,
+      "deaths": 259117.0,
+      "pop": 1426160609,
+      "deaths_per_million": 182.0,
+      "cfr_pct": 1.97
+    }
+  ],
+  "top10": [
+    {
+      "location": "Peru",
+      "continent": "South America",
+      "dpm": 6601.0
+    },
+    {
+      "location": "Bulgaria",
+      "continent": "Europe",
+      "dpm": 5670.0
+    },
+    {
+      "location": "North Macedonia",
+      "continent": "Europe",
+      "dpm": 5422.0
+    },
+    {
+      "location": "Bosnia and Herzegovina",
+      "continent": "Europe",
+      "dpm": 5115.0
+    },
+    {
+      "location": "Hungary",
+      "continent": "Europe",
+      "dpm": 5065.0
+    },
+    {
+      "location": "Croatia",
+      "continent": "Europe",
+      "dpm": 4800.0
+    },
+    {
+      "location": "Slovenia",
+      "continent": "Europe",
+      "dpm": 4767.0
+    },
+    {
+      "location": "Georgia",
+      "continent": "Asia",
+      "dpm": 4519.0
+    },
+    {
+      "location": "Czechia",
+      "continent": "Europe",
+      "dpm": 4076.0
+    },
+    {
+      "location": "Moldova",
+      "continent": "Europe",
+      "dpm": 4028.0
+    }
+  ],
+  "peak_countries_total": 233,
+  "peak_omicron": 160,
+  "ml_rows": 23664,
+  "ml_countries": 136,
+  "ml_train": 16592,
+  "ml_test": 7072,
+  "lr_train_s": 0.01,
+  "rf_train_s": 9.46,
+  "nn_train_s": 5.37,
+  "nn_epochs": 16,
+  "nn_params": 2945,
+  "models": {
+    "Naive (same as now)": {
+      "MAE": 0.657,
+      "R2": 0.683
+    },
+    "Linear Regression": {
+      "MAE": 0.589,
+      "R2": 0.777
+    },
+    "Random Forest": {
+      "MAE": 0.649,
+      "R2": 0.74
+    },
+    "Neural Network (Keras)": {
+      "MAE": 0.621,
+      "R2": 0.763
+    }
+  },
+  "rf_importance": {
+    "deaths/M (this week)": 0.964,
+    "cases/M (this week)": 0.008,
+    "deaths/M (1 wk ago)": 0.006,
+    "deaths/M (3 wk ago)": 0.004,
+    "cases/M (3 wk ago)": 0.004,
+    "deaths/M (2 wk ago)": 0.004,
+    "cases/M (1 wk ago)": 0.003,
+    "cases/M (2 wk ago)": 0.003,
+    "median age": 0.002,
+    "GDP per capita": 0.002,
+    "% fully vaccinated": 0.001,
+    "hospital beds/1k": 0.001
+  },
+  "example_country": "United States"
+}

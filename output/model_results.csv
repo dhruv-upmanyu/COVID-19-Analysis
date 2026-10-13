@@ -1,0 +1,5 @@
+,MAE,R2
+Naive (same as now),0.657,0.683
+Linear Regression,0.589,0.777
+Random Forest,0.649,0.74
+Neural Network (Keras),0.621,0.763
